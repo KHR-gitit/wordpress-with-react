@@ -22,6 +22,7 @@ fetchData();
     return (
         <div>
             <h1>{loading? '...' : data[0].title.rendered}</h1>
+            { loading? '...' : <div dangerouslySetInnerHTML={{__html: data[0].excerpt.rendered}}/> }
         </div>
     )
 }

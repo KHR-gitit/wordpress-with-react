@@ -135,7 +135,17 @@ function Posts() {
       lineNumber: 24,
       columnNumber: 13
     }
-  }, loading ? '...' : data[0].title.rendered));
+  }, loading ? '...' : data[0].title.rendered), loading ? '...' : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    dangerouslySetInnerHTML: {
+      __html: data[0].excerpt.rendered
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 32
+    }
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Posts);
