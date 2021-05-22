@@ -18,11 +18,17 @@ useEffect(() => {
 fetchData();
 
 }, []);
-
+let allPosts;
+loading? '...' : allPosts = data.map(e => <h1 key={e.title.rendered}>{ e.title.rendered}</h1>);
     return (
         <div>
-            <h1>{loading? '...' : data[0].title.rendered}</h1>
-            { loading? '...' : <div dangerouslySetInnerHTML={{__html: data[0].excerpt.rendered}}/> }
+            {/* {
+                data.map((e)=>{
+                    {}
+                    loading? '...' : <div dangerouslySetInnerHTML={{__html: e.excerpt.rendered}}/> 
+                })
+            } */}
+            {allPosts}
         </div>
     )
 }

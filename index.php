@@ -39,7 +39,7 @@
         Learn how to configure a non-root public URL by running `npm run wpbuild`.
     -->
     <title>React WordPress Theme</title>
-<link href="/react-wp/wp-content/themes/react_theme/static/css/main.chunk.css?fb4c0ed9fc1caea6f807" rel="stylesheet"></head>
+<link href="/react-wp/wp-content/themes/react_theme/static/css/main.chunk.css?e0354b565fe3c7f01c93" rel="stylesheet"></head>
     <body>
     <noscript>
         You need to enable JavaScript to run this app.
@@ -55,5 +55,5 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/react-wp/wp-content/themes/react_theme/static/js/bundle.js?fb4c0ed9fc1caea6f807"></script><script src="/react-wp/wp-content/themes/react_theme/static/js/0.chunk.js?fb4c0ed9fc1caea6f807"></script><script src="/react-wp/wp-content/themes/react_theme/static/js/main.chunk.js?fb4c0ed9fc1caea6f807"></script></body>
+    <script src="/react-wp/wp-content/themes/react_theme/static/js/bundle.js?e0354b565fe3c7f01c93"></script><script src="/react-wp/wp-content/themes/react_theme/static/js/0.chunk.js?e0354b565fe3c7f01c93"></script><script src="/react-wp/wp-content/themes/react_theme/static/js/main.chunk.js?e0354b565fe3c7f01c93"></script></body>
 </html>
