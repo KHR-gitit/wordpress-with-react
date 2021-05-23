@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Post from './Post';
 
 
 function Posts() {
@@ -19,7 +20,7 @@ fetchData();
 
 }, []);
 let allPosts;
-loading? '...' : allPosts = data.map(e => <h1 key={e.title.rendered}>{ e.title.rendered}</h1>);
+loading? '...' : allPosts = data.map(e => <Post key={e.title.rendered} title={ e.title.rendered} excerpt={e.excerpt.rendered} />);
     return (
         <div>
             {/* {
